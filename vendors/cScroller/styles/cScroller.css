@@ -1,0 +1,162 @@
+.cS-ctn {
+
+    background : #fff;
+    border : solid 1px #aaa;
+    overflow : hidden;
+    position : relative;
+    visibility : visible;
+
+}
+
+.cS-ctn .cS-loader {
+
+    position : relative;
+    top : 50%;
+    left : 50%;
+    width : 1px;
+    height : 1px;
+
+}
+
+.cS-ctn .cS-loader div {
+
+    background : url( '../images/cScroller-loader.gif' );
+    position : absolute;
+    top : -16px;
+    left : -16px;
+    width : 32px;
+    height : 32px;
+
+}
+
+.cS-ctn .cS-content,
+.cS-ctn .cS-content-copy {
+
+    color : #333;
+    font-family : Helvetica, Arial, sans-serif;
+    font-size : .8em;
+    padding : 0 5px;
+    position : absolute;
+    text-align : justify;
+    visibility : visible;
+
+}
+
+.cS-ctn .cS-nav {
+
+    background : #fff;
+    border-bottom : solid 1px #aaa;
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
+    position : absolute;
+    top : 0;
+    right : 0;
+    width : 100%;
+
+}
+
+.cS-ctn .cS-nav li {
+
+    float : right;
+    margin : 5px 5px 0 5px;
+    text-align : center;
+    width : 1.2em;
+
+}
+
+.cS-ctn .cS-nav li.up-down {
+
+    float : left;
+
+}
+
+.cS-ctn .cS-nav li a {
+
+    color : #aaa;
+    line-height : 1.5em;
+    margin : 0;
+    padding : 0;
+    text-decoration : none;
+
+}
+
+.cS-ctn .cS-nav li a:hover {
+
+    color : #777;
+
+}
+
+.cS-ctn .cS-nav li a:active {
+
+    outline : none;
+
+}
+
+.cS-ctn .cS-nav li i {
+
+    font-size : 1.5em;
+    line-height : 1em;
+
+}
+
+.cS-ctn .cS-nav li.up i.fi-arrow-up,
+.cS-ctn .cS-nav li.down i.fi-arrow-down,
+.cS-ctn .cS-nav li.pause i.fi-pause,
+.cS-ctn .cS-nav li.play i.fi-play {
+
+    display : none;
+
+}
+
+.cS-ctn .cS-nav li.up i.fi-arrow-down,
+.cS-ctn .cS-nav li.down i.fi-arrow-up,
+.cS-ctn .cS-nav li.pause i.fi-play,
+.cS-ctn .cS-nav li.play i.fi-pause {
+
+    display : block;
+
+}
+
+.cS-ctn .active-item {
+
+    border : solid 1px #ccc;
+    border-radius : 3px;
+    color : #333;
+    margin : 0 0 15px 0;
+    padding : 5px;
+
+}
+
+.cS-ctn .active {
+
+    background : #d2d2d2;
+    color : #333;
+
+}
+
+.cS-ctn .cS-content-start,
+.cS-ctn .cS-content-end {
+
+    height : 0;
+
+}
+
+.cS-ctn .cS-content-end {
+
+    clear : both;
+
+}
+
+.cS-ctn .clear {
+
+    clear : both;
+
+}
+
+.cS-clear {
+
+    clear : both;
+
+}
+

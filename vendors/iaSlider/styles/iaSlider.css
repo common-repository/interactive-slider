@@ -1,0 +1,51 @@
+.iaS-ctn {
+
+    background : #fff;
+    border : solid 1px #aaa;
+    float : left;
+    overflow : hidden;
+    position : relative;
+    visibility : hidden;
+
+}
+
+.iaS-ctn .iaS-loader {
+
+    position : relative;
+    top : 50%;
+    left : 50%;
+    width : 1px;
+    height : 1px;
+
+}
+
+.iaS-ctn .iaS-loader div {
+
+    background : url( '../images/iaSlider-loader.gif' );
+    position : absolute;
+    top : -16px;
+    left : -16px;
+    width : 32px;
+    height : 32px;
+
+}
+
+.iaS-ctn .iaS-image {
+
+    position : absolute;
+    visibility : hidden;
+
+}
+
+.cScroller {
+
+    float : left;
+
+}
+
+.iaS-clear {
+
+    clear : both;
+
+}
+
